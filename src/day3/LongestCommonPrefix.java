@@ -1,7 +1,6 @@
 package day3;
 
 
-
 public class LongestCommonPrefix {
     public static String longestCommonPrefix(String [] str) {
         if (str == null || str.length == 0) {
@@ -23,6 +22,7 @@ return  prefix;
 
     public static void main(String[] args) {
         String[]str = {"flower", "flow","flight"};
+
         System.out.println(longestCommonPrefix(str));
 
     }
