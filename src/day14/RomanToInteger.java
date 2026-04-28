@@ -1,3 +1,5 @@
+package day14;
+
 import java.util.HashMap;
 import java.util.Map;
 
