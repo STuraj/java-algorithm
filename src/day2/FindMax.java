@@ -1,7 +1,7 @@
 package day2;
 
 public class FindMax {
-    public static int findmax(int [] arr){
+    public static int findMax(int [] arr){
         int max = arr[0];
         for (int i=1; i<arr.length; i++){
             if (arr[i]>max){
@@ -12,8 +12,8 @@ public class FindMax {
     }
 
     public static void main(String[] args) {
-        int[] num = {3,7,2,9,5};
-        int result = findmax(num);
+        int[] arr = {3,7,2,9,5};
+        int result = findMax(arr);
         System.out.println("Maximum value is: " + result);
     }
 }
